@@ -11,6 +11,9 @@
 
 'use strict';
 
+import {useStoreRef} from "./core/Recoil_RecoilRoot";
+import {releaseNode} from "./core/Recoil_Retention";
+
 export type {StoreID} from './core/Recoil_Keys';
 export type {PersistenceType} from './core/Recoil_Node';
 export type {
@@ -144,4 +147,8 @@ module.exports = {
   // Memory Management
   useRetain,
   retentionZone,
+
+  // Experimental
+  useStoreRef,
+  releaseNode,
 };

@@ -304,4 +304,5 @@ module.exports = {
   updateRetainCountToZero,
   releaseScheduledRetainablesNow,
   retainedByOptionWithDefault,
+  releaseNode,
 };
